@@ -1,0 +1,126 @@
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+body{
+    width: 100vw;
+    background-color: rgba(189, 216, 216, 0.637);
+}
+
+nav{
+    width: 100%;
+    background: rgb(49,45,115);
+background: linear-gradient(90deg, rgba(49,45,115,1) 0%, rgba(41,39,115,1) 37%, rgba(18,16,102,1) 82%);
+}
+
+nav ul{
+    display: flex;
+    width:100%;
+    padding: 0 4rem;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0.8rem 0.7rem;
+    position: relative;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+nav ul li.highlight{
+    background-color: rgba(46, 38, 38, 0.767);
+}
+
+nav ul li.dropdown-nav-li ul{
+    flex-flow: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 0;
+    min-width: 15rem;
+    display: none;
+    border-radius: 0 0 .5rem .5rem;
+}
+
+nav ul li.dropdown-nav-li:hover>ul{
+    display: flex;
+}
+
+nav ul li.dropdown-nav-li ul li{
+    color: #fff;
+    font-size: 0.9rem;
+    border-bottom: 1px solid grey;
+}
+
+nav ul li.dropdown-nav-li ul li a{
+    text-transform: capitalize;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    padding: .5rem 2rem;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    max-width: 60%;
+}
+
+header ul li{
+    list-style-type: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 0.5rem;
+    margin: .2rem .5rem;
+}
+
+header ul li a{
+    text-decoration: none;
+    /* color: rgb(189, 54, 21); */
+    color: rgb(26, 26, 97);
+    font-weight: 700;
+}
+
+header ul li i{
+    /* color:rgb(12, 12, 143); */
+    color: rgb(42, 58, 28);
+    margin-right: .2rem;
+}
+
+.col-change{
+    animation:colblink 0.8s ease-in infinite;
+}
+
+@keyframes colblink{
+    0%{
+        /* color: rgb(161, 40, 40); */
+        color: rgb(59, 59, 180);
+    }
+    50%{
+        /* color: rgb(247, 59, 12); */
+        color: rgb(16, 16, 146);
+    }
+}
+
+@media(max-width:905px){
+    header{
+        flex-flow: column;
+    }
+    header ul{
+        max-width: 100%;
+        margin: 0;
+    }
+}
