@@ -4,6 +4,11 @@
     font-family: tahoma;
 }
 
+:root{
+    /* --nav-bg-gradient: linear-gradient(90deg, rgba(49,45,115,1) 0%, rgba(41,39,115,1) 37%, rgba(18,16,102,1) 82%); */
+    --nav-bg-gradient: linear-gradient(90deg, rgba(157, 49, 179, 0.918) 0%, rgb(142, 42, 167) 37%, rgb(127, 23, 175) 82%);
+}
+
 body{
     width: 100vw;
     background-color: rgba(189, 216, 216, 0.637);
@@ -12,7 +17,7 @@ body{
 nav{
     width: 100%;
     background: rgb(49,45,115);
-background: linear-gradient(90deg, rgba(49,45,115,1) 0%, rgba(41,39,115,1) 37%, rgba(18,16,102,1) 82%);
+    background: var(--nav-bg-gradient);
 }
 
 nav ul{
@@ -89,14 +94,14 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    /* color: rgb(189, 54, 21); */
-    color: rgb(26, 26, 97);
+    color: rgb(150, 21, 189);
+    /* color: rgb(26, 26, 97); */
     font-weight: 700;
 }
 
 header ul li i{
     /* color:rgb(12, 12, 143); */
-    color: rgb(42, 58, 28);
+    color: rgb(144, 26, 168);
     margin-right: .2rem;
 }
 
@@ -106,12 +111,12 @@ header ul li i{
 
 @keyframes colblink{
     0%{
-        /* color: rgb(161, 40, 40); */
-        color: rgb(59, 59, 180);
+        color: rgb(215, 84, 233);
+        /* color: rgb(59, 59, 180); */
     }
     50%{
-        /* color: rgb(247, 59, 12); */
-        color: rgb(16, 16, 146);
+        color: rgb(130, 29, 170);
+        /* color: rgb(16, 16, 146); */
     }
 }
 

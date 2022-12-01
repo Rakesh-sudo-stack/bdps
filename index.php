@@ -71,7 +71,7 @@
         </ul>
     </nav>
     <header>
-        <a href="index.php"><img src="./img/bdps_logo.png" alt=""></a>
+        <a href="index.php"><img src="./img/bdps_logo_3.png" alt=""></a>
         <ul>
             <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>Registration for Class XI 2022-2023</a></li>
             <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>TALENT SEARCH EXAMINATION II</a></li>
