@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>B.D. Public School</title>
     <script defer src="https://kit.fontawesome.com/40bc81af5c.js" crossorigin="anonymous"></script>
+    <script defer src="./js/jquery-min.js"></script>
+    <script defer src="./js/script.js"></script>
     <style>
         <?php
         include './css/style.css';
@@ -17,7 +19,7 @@
         <ul>
             <li><a href="">home</a></li>
             <li class="dropdown-nav-li">
-                <a href="">about us<i class="fa fa-angle-down"></i></a>
+                about us<i class="fa fa-angle-down"></i>
                 <ul>
                     <li><a href="">Aims & Objectives</a></li>
                     <li><a href="">Our Constitution</a></li>
@@ -26,7 +28,7 @@
                 </ul>
             </li>
             <li class="dropdown-nav-li">
-                <a href="">school info<i class="fa fa-angle-down"></i></a>
+                school info<i class="fa fa-angle-down"></i>
                 <ul>
                     <li><a href="">school profile</a></li>
                     <li><a href="">affidavit/declaration</a></li>
@@ -34,7 +36,7 @@
                 </ul>
             </li>
             <li class="dropdown-nav-li">
-                <a href="">academics<i class="fa fa-angle-down"></i></a>
+                academics<i class="fa fa-angle-down"></i>
                 <ul>
                     <li><a href="">academic calender</a></li>
                     <li><a href="">teachers list</a></li>
@@ -49,15 +51,15 @@
                     <li><a href="">holiday list</a></li>
                 </ul>
             </li>
-            <li class="dropdown-nav-li"><a href="">
-                admission<i class="fa fa-angle-down"></i></a>
+            <li class="dropdown-nav-li">
+                admission<i class="fa fa-angle-down"></i>
                 <ul>
                     <li><a href="">admission enquiry</a></li>
                     <li><a href="">admission guideline</a></li>
                 </ul>
             </li>
             <li class="dropdown-nav-li">
-                <a href="">gallery<i class="fa fa-angle-down"></i></a>
+                gallery<i class="fa fa-angle-down"></i>
                 <ul>
                     <li><a href="">photo gallery</a></li>
                     <li><a href="">video gallery</a></li>
@@ -71,7 +73,8 @@
         </ul>
     </nav>
     <header>
-        <a href="index.php"><img src="./img/bdps_logo.png" alt=""></a>
+        <a href="index.php"><figure></figure></a>
+        <div class="menu-btn"><i id="menu-ico" class="fa-solid fa-bars"></i></div>
         <ul>
             <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>Registration for Class XI 2022-2023</a></li>
             <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>TALENT SEARCH EXAMINATION II</a></li>
