@@ -69,6 +69,8 @@ nav ul li.dropdown-nav-li ul li{
 
 nav ul li.dropdown-nav-li ul li a{
     text-transform: capitalize;
+    height: 100%;
+    width: 100%;
 }
 
 header{
@@ -86,6 +88,7 @@ header .menu-btn{
     padding: .5rem .8rem;
     border-radius: 12px;
     display: none;
+    cursor: pointer;
 }
 
 header figure{
@@ -179,4 +182,9 @@ header ul li i{
     header .menu-btn{
         font-size: 2rem;
     }
+}
+
+nav ul li.dropdown-nav-li ul.active{
+    display: flex;
+    margin-top: 1rem;
 }

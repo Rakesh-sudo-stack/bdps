@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B.D. Public School</title>
     <script defer src="https://kit.fontawesome.com/40bc81af5c.js" crossorigin="anonymous"></script>
-    <script defer src="./js/jquery-min.js"></script>
-    <script defer src="./js/script.js"></script>
     <style>
         <?php
         include './css/style.css';
@@ -86,5 +84,11 @@
     </header>
     <main></main>
     <footer></footer>
+    <script>
+        <?php
+        include './js/jquery-min.js';
+        include './js/script.js';
+        ?>
+    </script>
 </body>
 </html>
