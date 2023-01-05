@@ -1,190 +1,89 @@
-*{
-    margin:0;padding:0;
+* {
     box-sizing: border-box;
-    font-family: tahoma;
-}
-
-:root{
-    /* --nav-bg-gradient: linear-gradient(90deg, rgba(49,45,115,1) 0%, rgba(41,39,115,1) 37%, rgba(18,16,102,1) 82%); */
-    --nav-bg-gradient: linear-gradient(90deg, rgba(157, 49, 179, 0.918) 0%, rgb(142, 42, 167) 37%, rgb(127, 23, 175) 82%);
-    --menu-bar-btn:purple;
-}
-
-body{
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    max-height: 800px;
     width: 100vw;
-    background-color: rgba(189, 216, 216, 0.637);
-}
-
-nav{
-    width: 100%;
-    background: rgb(49,45,115);
-    background: var(--nav-bg-gradient);
-}
-
-nav ul{
-    display: flex;
-    width:100%;
-    padding: 0 4rem;
-    flex-wrap: wrap;
-}
-
-nav ul li{
-    list-style-type: none;
-    padding: 0.8rem 0.7rem;
-    position: relative;
-}
-
-nav ul li, nav ul li a{
-    color:#fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    cursor: pointer;
-}
-
-nav ul li.highlight{
-    background-color: rgba(46, 38, 38, 0.767);
-}
-
-nav ul li.dropdown-nav-li ul{
-    flex-flow: column;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.603);
-    padding: 0;
-    min-width: 15rem;
+    overflow: hidden;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
     display: none;
-    border-radius: 0 0 .5rem .5rem;
-    z-index: 3;
-}
-
-nav ul li.dropdown-nav-li:hover>ul{
-    display: flex;
-}
-
-nav ul li.dropdown-nav-li ul li{
-    color: #fff;
-    font-size: 0.9rem;
-    border-bottom: 1px solid grey;
-}
-
-nav ul li.dropdown-nav-li ul li a{
-    text-transform: capitalize;
-    height: 100%;
-    width: 100%;
-}
-
-header{
-    background-color: white;
-    display: flex;
-    padding: .5rem 2rem;
-    position: relative;
-}
-
-header .menu-btn{
-    font-size: 3rem;
-    position: absolute;
-    right:10%;
-    color: var(--menu-bar-btn);
-    padding: .5rem .8rem;
-    border-radius: 12px;
-    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
     cursor: pointer;
-}
-
-header figure{
-    height:81px;
-    width: 360px;
-    background: url('./img/bdps_logo.png');
-}
-
-header ul{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5rem;
-    max-width: 60%;
-}
-
-header ul li{
-    list-style-type: none;
-    border: 1px solid #000;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: .5rem 0.5rem;
-    margin: .2rem .5rem;
-}
-
-header ul li a{
-    text-decoration: none;
-    color: rgb(150, 21, 189);
-    /* color: rgb(26, 26, 97); */
-    font-weight: 700;
-}
-
-header ul li i{
-    /* color:rgb(12, 12, 143); */
-    color: rgb(144, 26, 168);
-    margin-right: .2rem;
-}
-
-.col-change{
-    animation:colblink 0.8s ease-in infinite;
-}
-
-@keyframes colblink{
-    0%{
-        color: rgb(215, 84, 233);
-        /* color: rgb(59, 59, 180); */
-    }
-    50%{
-        color: rgb(130, 29, 170);
-        /* color: rgb(16, 16, 146); */
-    }
-}
-
-@media(max-width:1237px){
-    nav{
-        position: absolute;
-        z-index: 2;
-        min-height:100%;
-        top: 90px;
-        display: none;
-    }
-    nav ul li.dropdown-nav-li:hover>ul{
-        display: none;
-    }
-    nav ul li.dropdown-nav-li ul{
-        position: initial;
-    }
-
-    nav ul{
-        flex-flow: column;
-    }
-    header ul{
-        max-width: 100%;
-        margin: 0;
-    }
-    header{
-        flex-flow: column;
-    }
-    header .menu-btn{
-        display: flex;
-    }
-}
-
-@media(max-width:563px){
-    header figure{
-        width: 70%;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    header .menu-btn{
-        font-size: 2rem;
-    }
-}
-
-nav ul li.dropdown-nav-li ul.active{
-    display: flex;
-    margin-top: 1rem;
-}
+  }
+  
+  /* Next & previous buttons */
+  .prev-image,
+  .next-image{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next-image {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev-image:hover,
+  .next-image:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
