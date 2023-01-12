@@ -92,62 +92,57 @@
 
         <div class="mySlides">
             <div class="numbertext">1 / 10</div>
-            <img src="./img/heroes-section/img5.jpg" style="width:100%">
+            <img src="./img/heroes-section/img4.jpg" width="100%">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">2 / 6</div>
-            <img src="./img/heroes-section/img2.jpg" style="width:100%">
+            <img src="./img/heroes-section/img2.jpg">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">3 / 6</div>
-            <img src="./img/heroes-section/img3.jpg" style="width:100%">
+            <img src="./img/heroes-section/img3.jpg">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">4 / 6</div>
-            <img src="./img/heroes-section/img4.jpg" style="width:100%">
+            <img src="./img/heroes-section/img5.jpg" width="100%">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">5 / 6</div>
-            <img src="./img/heroes-section/img5.jpg" style="width:100%">
+            <img src="./img/heroes-section/img1.jpg" width="100%">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">6 / 6</div>
-            <img src="./img/heroes-section/img6.jpg" style="width:100%">
+            <img src="./img/heroes-section/img6.jpg" width="100%">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">5 / 6</div>
-            <img src="./img/heroes-section/img7.jpg" style="width:100%">
+            <img src="./img/heroes-section/img7.jpg" width="100%">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">5 / 6</div>
-            <img src="./img/heroes-section/img8.jpg" style="width:100%">
+            <img src="./img/heroes-section/img8.jpg" width="100%">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">5 / 6</div>
-            <img src="./img/heroes-section/img9.jpg" style="width:100%">
+            <img src="./img/heroes-section/img9.jpg" width="100%">
         </div>
 
         <div class="mySlides">
         <div class="numbertext">5 / 6</div>
-            <img src="./img/heroes-section/img10.jpg" style="width:100%">
+            <img src="./img/heroes-section/img10.jpg" width="100%">
         </div>
 
         <!-- Next and previous buttons -->
         <a class="prev-image">&#10094;</a>
         <a class="next-image">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-        <p id="caption"></p>
-        </div>
 </div>
     </main>
     <footer></footer>
