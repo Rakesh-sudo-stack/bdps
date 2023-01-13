@@ -12,7 +12,7 @@
 
 body{
     width: 100vw;
-    background-color: rgba(189, 216, 216, 0.637);
+    background-color: rgb(255, 255, 255);
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
@@ -87,7 +87,7 @@ nav ul li.dropdown-nav-li ul li a{
 header{
     background-color: white;
     display: flex;
-    padding: .5rem 2rem;
+    padding: .5rem .5rem;
     position: relative;
 }
 

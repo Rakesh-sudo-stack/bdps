@@ -1,109 +1,115 @@
-* {
-    box-sizing: border-box;
-  }
+.container {
+  position: relative;
+  max-height: 800px;
+  width: 100vw;
+  overflow: hidden;
+}
   
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-    max-height: 800px;
-    width: 100vw;
-    overflow: hidden;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    position: relative;
-    height: 550px;
-    width: 100%;
-    background-color: white;
-    overflow: hidden;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev-image,
-  .next-image{
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 0.5;
-  }
-  
-  /* Position the "next button" to the right */
-  .next-image {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev-image:hover,
-  .next-image:hover {
-    opacity: 1;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
+.mySlides {
+  position: relative;
+  height: 550px;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+}
 
+.mySlides .title{
+  position: absolute;
+  top: 10%;
+  left:10%;
+  transform: translate(-50%,-50%);
+  transform: skew(20deg);
+  z-index: 2;
+  color: white;
+  font-weight: 900;
+  font-size: 1.7rem;
+  padding: 1rem;
+  background-color: rgba(138, 12, 122, 0.761);
+  -webkit-text-stroke:.8px #000;
+  -ms-text-stroke:.8px #000;
+
+}
+  
+.cursor {
+  cursor: pointer;
+}
+
+.prev-image,
+.next-image{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.5;
+}
+ 
+.next-image {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+.prev-image:hover,
+.next-image:hover {
+  opacity: 1;
+}
+  
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.mySlides img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+  
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+.column {
+float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+@media(max-width:1000px){
+  .mySlides{
+    height: 500px;
+  }
   .mySlides img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
+    height: 500px;
+    width: auto;
   }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-  @media(max-width:1000px){
-    .mySlides img{
-      height: 530px;
-      width: auto;
-    }
-  }
+}
