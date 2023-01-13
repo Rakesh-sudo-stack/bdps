@@ -91,51 +91,61 @@
     <div class="container">
 
         <div class="mySlides">
+            <div class="numbertext">1 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img4.jpg" width="100%">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">2 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img2.jpg">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">3 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img3.jpg">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">4 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img5.jpg" width="100%">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">5 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img1.jpg" width="100%">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">6 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img6.jpg" width="100%">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">7 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img7.jpg" width="100%">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">8 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img8.jpg" width="100%">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">9 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img9.jpg" width="100%">
         </div>
 
         <div class="mySlides">
+            <div class="numbertext">10 / 10</div>
             <div class="title">B. D. Public School</div>
             <img src="./img/heroes-section/img10.jpg" width="100%">
         </div>

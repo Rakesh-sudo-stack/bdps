@@ -169,7 +169,7 @@ header ul li i{
 @media(max-width:1237px){
     nav{
         position: absolute;
-        z-index: 2;
+        z-index: 3;
         min-height:100%;
         top: 90px;
         display: none;
