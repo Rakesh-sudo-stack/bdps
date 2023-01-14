@@ -170,9 +170,10 @@ header ul li i{
     nav{
         position: absolute;
         z-index: 3;
-        min-height:100%;
+        min-height:auto;
         top: 90px;
         display: none;
+        padding-bottom:2rem;
     }
     nav ul li.dropdown-nav-li:hover>ul{
         display: none;
