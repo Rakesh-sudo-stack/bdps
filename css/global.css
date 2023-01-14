@@ -2,6 +2,10 @@
     margin:0;padding:0;
     box-sizing: border-box;
     font-family: tahoma;
+    -webkit-tap-highlight-color:transparent;
+    -ms-tap-highlight-color:transparent;
+    -moz-tap-highlight-color:transparent;
+    -o-tap-highlight-color:transparent;
 }
 
 :root{
