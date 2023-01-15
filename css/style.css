@@ -116,3 +116,133 @@ float: left;
     width: auto;
   }
 }
+
+/* -------------*********BANNER CODE BELOW IMAGES STARTS**************------------- */
+
+.banner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 4rem 0; */
+}
+
+.banner .school-prospectus{
+  background: rgb(103, 21, 141);
+  width: 95%;
+  text-align: center;
+  border-top: 1px solid rgba(154, 185, 118, 0.432);
+  padding: 1rem 0;
+}
+
+.banner .school-prospectus a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.banner .school-info{
+  width: 95%;
+  background: rgb(103, 21, 141);
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.banner .school-info .connect ul{
+  padding: 2rem;
+  display: flex;
+  border-right: 1px solid rgba(154, 185, 118, 0.432);
+}
+
+.banner .school-info .connect ul li{
+  margin: 0 1rem;
+  list-style-type: none;
+  color: white;
+  font-weight: 700;
+  font-family: century gothic;
+}
+
+.banner .school-info .connect ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-family: century gothic;
+}
+
+.banner .school-info .social-media ul{
+  position: absolute;
+  right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  height: 100%;
+}
+
+.banner .school-info .social-media ul li a{
+  background-color: rgb(144, 26, 168);
+  height: 4rem;
+  width: 4rem;
+  clip-path: circle(40%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media ul li a:visited, .social-media ul li a:active,.social-media ul li a:focus,
+.social-media ul li a:link{
+  color: transparent;
+}
+
+.banner .school-info .social-media ul li a i{
+  color: white;
+  font-size: 2rem;
+}
+
+@media(max-width:1005px){
+  .banner .school-info{
+    flex-flow: column;
+  }
+  .banner .school-info .social-media ul{
+    position: initial;
+  }
+  .banner .school-info .connect ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner .school-info .connect ul li{
+    text-align: center;
+  }
+}
+
+@media(max-width:557px){
+  .banner .school-info, .banner .school-prospectus{
+    width: 100%;
+  }
+}
+
+@media(max-width:340px){
+  .container .mySlides .title{
+    font-size: .9rem;
+  }
+  .banner .school-info{
+    padding: .5rem 0;
+  }
+  .banner .school-info .connect ul{
+    display: none;
+  }
+}
+
+@media(max-width:285px){
+  .banner .school-info .social-media ul li a{
+    clip-path: circle(25%);
+  }
+  .banner .school-info .social-media ul li a i{
+    font-size: 1rem;
+  }
+}
+
+/* -------------*********BANNER CODE BELOW IMAGES ENDS**************------------- */

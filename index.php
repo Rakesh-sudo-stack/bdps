@@ -93,67 +93,88 @@
         <div class="mySlides">
             <div class="numbertext">1 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img4.jpg" width="100%">
+            <img src="./img/heroes-section/img4.jpg" width="100%" alt="BDPS FRONT LOOK">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">2 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img2.jpg">
+            <img src="./img/heroes-section/img2.jpg" alt="CULTURAL PROGRAMME">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">3 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img3.jpg">
+            <img src="./img/heroes-section/img3.jpg" alt="CULTURAL PROGRAMME">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">4 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img5.jpg" width="100%">
+            <img src="./img/heroes-section/img5.jpg" width="100%" alt="BDPS STUDENTS">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">5 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img1.jpg" width="100%">
+            <img src="./img/heroes-section/img1.jpg" width="100%" alt="SAWAN MAHOTSAVA">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">6 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img6.jpg" width="100%">
+            <img src="./img/heroes-section/img6.jpg" width="100%" alt="KBD TRAINING">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">7 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img7.jpg" width="100%">
+            <img src="./img/heroes-section/img7.jpg" width="100%" alt="BDPS DIRECTOR">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">8 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img8.jpg" width="100%">
+            <img src="./img/heroes-section/img8.jpg" width="100%" alt="VOLLEYBALL MATCH">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">9 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img9.jpg" width="100%">
+            <img src="./img/heroes-section/img9.jpg" width="100%" alt="BDPS STUDENTS">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">10 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img10.jpg" width="100%">
+            <img src="./img/heroes-section/img10.jpg" width="100%" alt="BDPS FAMILY">
         </div>
 
         <!-- Next and previous buttons -->
         <a class="prev-image">&#10094;</a>
         <a class="next-image">&#10095;</a>
-</div>
+    </div>
+    <div class="banner">
+        <div class="school-info">
+            <div class="connect">
+                <ul>
+                <li>Tel no. : <a href="tel:6122528704">6122528704</a></li>
+                <li>Email: <a href="mailto:bdpschool@rediffmail.com">bdpschool@rediffmail.com</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li title="twitter"><a href=""><i class="fa-brands fa-twitter"></i></i></a></li>
+                    <li title="facebook"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li title="gplus"><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li title="youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="school-prospectus">
+            <a href="">School Prospectus</a>
+        </div>
+    </div>
     </main>
     <footer></footer>
     <script defer>

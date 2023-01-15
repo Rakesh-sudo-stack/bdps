@@ -16,7 +16,7 @@
 
 body{
     width: 100vw;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(233, 228, 247, 0.822);
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
