@@ -175,6 +175,178 @@
             <a href="">School Prospectus</a>
         </div>
     </div>
+    <section class='section-1'>
+        <div class="left-side">
+            <div class="about-us">
+                <h2>WELCOME TO <span style="color:rgb(144, 26, 168);">B.D PUBLIC SCHOOL</span></h2>
+                <p><b>B.D. Public School</b>, Affiliated to <b>CBSE</b>, is run under the aegis of Budha Vikash Samiti. The zenith which the school has been able to reach is largely due to the untiring effort and devotion of Shri Sheo Bihari Roy whose services the school still enjoys as its Director. Some eminent educationists, like <b>Dr. D.N. Mishra</b> (Rtd. Prof., Patna University, Patna) who out of a sense of devotion to the cause of education, spare some time regularly, to guide the students. The school is headed by an eminent Principal, Smt. Madhwi Kumari, who is an academician and sustains the students as a mother.</p>
+                <a href="#" id='read-more'>Read More</a>
+                <!-- <img src="./img/schoolbuilding.png" alt="School Building"> -->
+            </div>
+            <div class="messages-section">
+                <div class="message"> 
+                    <figure>  
+                        <img src="./img/director-image.jpg" alt="Director Image">
+                    </figure>
+                    <div class="content-div">
+                        <div class="title">MESSAGE FROM DIRECTOR</div>
+                        <div class="content">It gives me immense pleasure to acknowledge with gratitude the recognition and appreciation this <b>B.D. Public School</b> has earned over the years. An Institution is known not by the magnificence....</div>
+                        <a href='' class="read-more">Read More ></a>
+                    </div>
+                </div>
+                <div class="message">
+                    <figure>  
+                        <img src="./img/principal-image.jpg" alt="Principal Image">
+                    </figure>
+                    <div class="content-div">
+                        <div class="title">MESSAGE FROM PRINCIPAL</div>
+                        <div class="content">Children learn to work together to share and cooperate. They are helped to develop good self-esteem and confidence. This area is the basis for success.....</div>
+                        <a href='' class="read-more">Read More ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="announcements-section">
+                <h2>Latest Announcements</h2>
+                <marquee onmouseover="this.stop();" onmouseout="this.start();" direction='up' scrollamount=7>
+                    <div class="announcement">
+                        <div class="title">BIOLOGY 2ND LIST OF CANDIDATES SELECTED FOR ADMISSION IN CLASS XI</div>
+                        <div class="date">Published:2020-08-06</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title">MATHS 2ND LIST OF CANDIDATES SELECTED FOR ADMISSION IN CLASS XI</div>
+                        <div class="date">Published:2020-08-06</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title"> COMMERCE 2ND LIST OF CANDIDATES SELECTED FOR ADMISSION IN CLASS XI</div>
+                        <div class="date">Published:2020-08-06</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title">OFFICE ORDER</div>
+                        <div class="date">Published:2020-07-31</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title"> MATH GROUP SELECTED CANDIDATES FOR CLASS-XI</div>
+                        <div class="date">Published:2020-07-29</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title">COMMERCE GROUP SELECTED CANDIDATES FOR CLASS-XI</div>
+                        <div class="date">Published:2020-07-29</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title">BIOLOGY GROUP SELECTED CANDIDATES FOR CLASS-XI</div>
+                        <div class="date">Published:2020-07-29</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title">AISSE - 2020 CLASS XTH RESULT</div>
+                        <div class="date">Published:2020-07-15</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title">AISSCE - 2020 CLASS XIITH RESULT</div>
+                        <div class="date">Published:2020-07-15</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="announcement">
+                        <div class="title">OFFICE ORDER</div>
+                        <div class="date">Published:2020-07-09</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                </div>
+            </marquee>
+            </div>
+            <div class="notice-board">
+                <h2>Notice Board</h2>
+                <div class='container'>
+                    <div class="notice">
+                        <div class="title">BIOLOGY 2ND LIST OF CANDIDATES SELECTED FOR ADMISSION IN CLASS XI</div>
+                        <div class="date">Published:2020-08-06</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title">MATHS 2ND LIST OF CANDIDATES SELECTED FOR ADMISSION IN CLASS XI</div>
+                        <div class="date">Published:2020-08-06</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title"> COMMERCE 2ND LIST OF CANDIDATES SELECTED FOR ADMISSION IN CLASS XI</div>
+                        <div class="date">Published:2020-08-06</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title">OFFICE ORDER</div>
+                        <div class="date">Published:2020-07-31</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title"> MATH GROUP SELECTED CANDIDATES FOR CLASS-XI</div>
+                        <div class="date">Published:2020-07-29</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title">COMMERCE GROUP SELECTED CANDIDATES FOR CLASS-XI</div>
+                        <div class="date">Published:2020-07-29</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title">BIOLOGY GROUP SELECTED CANDIDATES FOR CLASS-XI</div>
+                        <div class="date">Published:2020-07-29</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title">AISSE - 2020 CLASS XTH RESULT</div>
+                        <div class="date">Published:2020-07-15</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title">AISSCE - 2020 CLASS XIITH RESULT</div>
+                        <div class="date">Published:2020-07-15</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                    <div class="notice">
+                        <div class="title">OFFICE ORDER</div>
+                        <div class="date">Published:2020-07-09</div>
+                        <div class="school-name">B.D. PUBLIC SCHOOL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="facilities">
+                <h2>Facilities</h2>
+                <div class="container">
+                <div class="facility">
+                    <div class="number">10</div>
+                    <p>Total No.of Small-sized Rooms</p>
+                </div>
+                <div class="facility">
+                    <div class="number">82</div>
+                    <p>Total No.of Medium-sized Rooms</p>
+                </div>
+                <div class="facility">
+                    <div class="number">02</div>
+                    <p>Total No.of Libraries</p>
+                </div>
+                <div class="facility">
+                    <div class="number">08</div>
+                    <p>Total No.of Laboratories</p>
+                </div>
+                <div class="facility">
+                    <div class="number">34</div>
+                    <p>Total No.of Digital Classroom</p>
+                </div>
+                <div class="read-more"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
     </main>
     <footer></footer>
     <script defer>
