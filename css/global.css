@@ -216,3 +216,64 @@ nav ul li.dropdown-nav-li ul.active{
     display: flex;
     margin-top: 1rem;
 }
+
+footer{
+    width: 100vw;
+    background: rgb(103, 21, 141);
+    padding: 2rem 6rem;
+    color: rgb(245, 245, 191);
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.footer-sections{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    margin: 0 3rem 0 0;
+    flex:1 1 auto;
+}
+
+.footer-section-1{
+    flex: 1 1 550px;
+}
+
+.footer-section h2{
+    color: #ff2;
+    padding: 1rem;
+    border-bottom: 3px solid #ff2;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: gill sans;
+    font-weight: 700;
+}
+
+.footer-section .content li, .footer-section .content p{
+    font-family: gill sans;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.copyright{
+    width: 100vw;
+    background: rgb(46, 5, 65);
+    color: #fff;
+    border-top: 2px solid #fff;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media(max-width:928px){
+    footer{
+        padding: 2rem 2rem;
+    }
+}

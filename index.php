@@ -348,7 +348,72 @@
 
     </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-sections">
+            <div class="footer-section footer-section-1">
+                <h2>ABOUT US</h2>
+                <div class="content">
+                    <p>B.D. Public School, Affiliated to CBSE, is run under the aegis of Budha Vikash Samiti. The zenith which the school has been able to reach is largely due to the untiring effort and devotion of Shri Sheo Bihari Roy whose services the school still enjoys as its Director. Some eminent educationists, like Dr. D.N. Mishra (Rtd. Prof., Patna University, Patna)..</p>
+                    <a href="Read More"></a>
+                </div>
+            </div>
+            <div class="footer-section footer-section-2">
+                <h2>QUICK LINKS</h2>
+                <div class="content">
+                    <ul>
+                        <li>About Us</li>
+                        <li>Facility</li>
+                        <li>Admission</li>
+                        <li>Admission Enquiry</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section footer-section-3">
+                <h2>GALLERY</h2>
+                <div class="content">
+                    <ul>
+                        <li>Photo Gallery</li>
+                        <li>Video Gallery</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section footer-section-4">
+                <h2>SCHOOL TIMING</h2>
+                <div class="content">
+                    <p>Mon-Fri 7:10 am to 1:20 pm <br />7:10 am to 10:30 pm</p>
+                </div>
+            </div>
+            <div class="footer-section footer-section-5">
+                <h2>CONTACT US</h2>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <label for="address">Address: </label>
+                            <p name='address'>Buddha Colony, Patna - 800 001</p>
+                            <br>
+                        </li>
+                        <li>
+                            <label for="phone">Phone: </label>
+                            <p name='phone'>9065523909, 8864014737, 8294159505</p>
+                            <br>
+                        </li>
+                        <li>
+                            <label for="fax">Fax No: </label>
+                            <p name='fax'>0612-2524763</p>
+                            <br>
+                        </li>
+                        <li>
+                            <label for="email">Email: </label>
+                            <p name='email'>bdpschool@rediffmail.com</p>
+                            <br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <div class="copyright">© 2023 B.D Public School Design By : <span style='color:rgb(12, 201, 144);margin-left:1rem;'> Rakesh Jaiswal</span></div>
     <script defer>
         <?php
         include './js/jquery-min.js';
