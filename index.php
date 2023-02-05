@@ -6,12 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B.D. Public School</title>
     <script defer src="https://kit.fontawesome.com/40bc81af5c.js" crossorigin="anonymous"></script>
-    <style>
-        <?php
-        include './css/global.css';
-        include './css/style.css';
-        ?>
-    </style>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <nav>
@@ -414,11 +410,7 @@
         </div>
     </footer>
         <div class="copyright">© 2023 B.D Public School Design By : <span style='color:rgb(12, 201, 144);margin-left:1rem;'> Rakesh Jaiswal</span></div>
-    <script defer>
-        <?php
-        include './js/jquery-min.js';
-        include './js/script.js';
-        ?>
-    </script>
+    <script defer src='./js/jquery-min.js'></script>
+    <script defer src='./js/script.js'></script>
 </body>
 </html>

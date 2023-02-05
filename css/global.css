@@ -109,7 +109,7 @@ header .menu-btn{
 header figure{
     height:81px;
     width: 360px;
-    background: url('./img/bdps_logo_3.png');
+    background: url('../img/bdps_logo_3.png');
 }
 
 header ul{
@@ -221,7 +221,7 @@ footer{
     width: 100vw;
     background: rgb(103, 21, 141);
     padding: 2rem 6rem;
-    color: rgb(245, 245, 191);
+    color: #fff;
 }
 
 footer ul{
@@ -235,8 +235,8 @@ footer ul{
 }
 
 .footer-section{
-    margin: 0 3rem 0 0;
     flex:1 1 auto;
+    padding: 0 1.2rem;
 }
 
 .footer-section-1{
@@ -244,7 +244,7 @@ footer ul{
 }
 
 .footer-section h2{
-    color: #ff2;
+    color: #fff;
     padding: 1rem;
     border-bottom: 3px solid #ff2;
     width: 100%;
@@ -274,6 +274,12 @@ footer ul{
 
 @media(max-width:928px){
     footer{
-        padding: 2rem 2rem;
+        padding: 0;
+    }
+    .copyright{
+        font-size: .7rem;
+    }
+    .copyright span{
+        margin-left: 0;
     }
 }
