@@ -368,7 +368,7 @@ float: left;
 
 .right-side{
   flex: 0 1 40vw;
-  padding: 0 1rem;
+  padding: 0 .4rem;
 }
 
 .announcements-section,.notice-board{

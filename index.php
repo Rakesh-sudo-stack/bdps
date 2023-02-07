@@ -6,78 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B.D. Public School</title>
     <script defer src="https://kit.fontawesome.com/40bc81af5c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./static/css/global.css">
+    <link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="">home</a></li>
-            <li class="dropdown-nav-li">
-                about us<i class="fa fa-angle-down"></i>
-                <ul>
-                    <li><a href="">Aims & Objectives</a></li>
-                    <li><a href="">Our Constitution</a></li>
-                    <li><a href="">Director Message</a></li>
-                    <li><a href="">School Managing Committee</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-nav-li">
-                school info<i class="fa fa-angle-down"></i>
-                <ul>
-                    <li><a href="">school profile</a></li>
-                    <li><a href="">affidavit/declaration</a></li>
-                    <li><a href="">school advisory board</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-nav-li">
-                academics<i class="fa fa-angle-down"></i>
-                <ul>
-                    <li><a href="">academic calender</a></li>
-                    <li><a href="">teachers list</a></li>
-                    <li><a href="">book list</a></li>
-                    <li><a href="">academic achievements</a></li>
-                    <li><a href="">code of conduct for students</a></li>
-                    <li><a href="">advice to parents</a></li>
-                    <li><a href="">activities&competitions</a></li>
-                    <li><a href="">annual sports meet</a></li>
-                    <li><a href="">exam schedule</a></li>
-                    <li><a href="">school uniform</a></li>
-                    <li><a href="">holiday list</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-nav-li">
-                admission<i class="fa fa-angle-down"></i>
-                <ul>
-                    <li><a href="">admission enquiry</a></li>
-                    <li><a href="">admission guideline</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-nav-li">
-                gallery<i class="fa fa-angle-down"></i>
-                <ul>
-                    <li><a href="">photo gallery</a></li>
-                    <li><a href="">video gallery</a></li>
-                </ul>
-            </li>
-            <li><a href="">downloads</a></li>
-            <li><a href="">transfer certificate</a></li>
-            <li><a href="">alumini</a></li>
-            <li><a href="">contact us</a></li>
-            <li class="highlight"><a href="">pay fees online</a></li>
-        </ul>
-    </nav>
-    <header>
-        <a href="index.php"><figure></figure></a>
-        <div class="menu-btn"><i id="menu-ico" class="fa-solid fa-bars"></i></div>
-        <ul>
-            <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>Registration for Class XI 2022-2023</a></li>
-            <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>Vacancy-2022</a></li>
-            <li><a href="" class="col-change"><i class="fa fa-user"></i>Registration for Nursery to Class IX</a></li>
-            <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>Topper's List</a></li>
-            <li><a href="" class="col-change"><i class="fa fa-graduation-cap"></i>Sawan Mohatsava</a></li>
-        </ul>
-    </header>
+    <?php
+        include './header.html';
+    ?>
     <marquee class="movable-notice" behavior="scroll" direction="">
         <ul>
             <li class="col-change">Registration for Nur - IX for 2023-2024 will start from 15/12/2022</li>
@@ -89,61 +24,61 @@
         <div class="mySlides">
             <div class="numbertext">1 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img4.jpg" width="100%" alt="BDPS FRONT LOOK">
+            <img src="./static/img/heroes-section/img4.jpg" width="100%" alt="BDPS FRONT LOOK">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">2 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img2.jpg" alt="CULTURAL PROGRAMME">
+            <img src="./static/img/heroes-section/img2.jpg" alt="CULTURAL PROGRAMME">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">3 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img3.jpg" alt="CULTURAL PROGRAMME">
+            <img src="./static/img/heroes-section/img3.jpg" alt="CULTURAL PROGRAMME">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">4 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img5.jpg" width="100%" alt="BDPS STUDENTS">
+            <img src="./static/img/heroes-section/img5.jpg" width="100%" alt="BDPS STUDENTS">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">5 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img1.jpg" width="100%" alt="SAWAN MAHOTSAVA">
+            <img src="./static/img/heroes-section/img1.jpg" width="100%" alt="SAWAN MAHOTSAVA">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">6 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img6.jpg" width="100%" alt="KBD TRAINING">
+            <img src="./static/img/heroes-section/img6.jpg" width="100%" alt="KBD TRAINING">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">7 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img7.jpg" width="100%" alt="BDPS DIRECTOR">
+            <img src="./static/img/heroes-section/img7.jpg" width="100%" alt="BDPS DIRECTOR">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">8 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img8.jpg" width="100%" alt="VOLLEYBALL MATCH">
+            <img src="./static/img/heroes-section/img8.jpg" width="100%" alt="VOLLEYBALL MATCH">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">9 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img9.jpg" width="100%" alt="BDPS STUDENTS">
+            <img src="./static/img/heroes-section/img9.jpg" width="100%" alt="BDPS STUDENTS">
         </div>
 
         <div class="mySlides">
             <div class="numbertext">10 / 10</div>
             <div class="title">B. D. Public School</div>
-            <img src="./img/heroes-section/img10.jpg" width="100%" alt="BDPS FAMILY">
+            <img src="./static/img/heroes-section/img10.jpg" width="100%" alt="BDPS FAMILY">
         </div>
 
         <!-- Next and previous buttons -->
@@ -161,9 +96,9 @@
             <div class="social-media">
                 <ul>
                     <li title="twitter"><a href=""><i class="fa-brands fa-twitter"></i></i></a></li>
-                    <li title="facebook"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li title="facebook"><a href="https://www.facebook.com/bdpublicschoolbuddhacolonypatna"><i class="fa-brands fa-facebook-f"></i></a></li>
                     <li title="gplus"><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
-                    <li title="youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li title="youtube"><a href="https://www.youtube.com/@b.d.publicschool9738"><i class="fa-brands fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -177,12 +112,12 @@
                 <h2>WELCOME TO <span style="color:rgb(144, 26, 168);">B.D PUBLIC SCHOOL</span></h2>
                 <p><b>B.D. Public School</b>, Affiliated to <b>CBSE</b>, is run under the aegis of Budha Vikash Samiti. The zenith which the school has been able to reach is largely due to the untiring effort and devotion of Shri Sheo Bihari Roy whose services the school still enjoys as its Director. Some eminent educationists, like <b>Dr. D.N. Mishra</b> (Rtd. Prof., Patna University, Patna) who out of a sense of devotion to the cause of education, spare some time regularly, to guide the students. The school is headed by an eminent Principal, Smt. Madhwi Kumari, who is an academician and sustains the students as a mother.</p>
                 <a href="#" id='read-more'>Read More</a>
-                <!-- <img src="./img/schoolbuilding.png" alt="School Building"> -->
+                <!-- <img src="./static/img/schoolbuilding.png" alt="School Building"> -->
             </div>
             <div class="messages-section">
                 <div class="message"> 
                     <figure>  
-                        <img src="./img/director-image.jpg" alt="Director Image">
+                        <img src="./static/img/director-image.jpg" alt="Director Image">
                     </figure>
                     <div class="content-div">
                         <div class="title">MESSAGE FROM DIRECTOR</div>
@@ -192,7 +127,7 @@
                 </div>
                 <div class="message">
                     <figure>  
-                        <img src="./img/principal-image.jpg" alt="Principal Image">
+                        <img src="./static/img/principal-image.jpg" alt="Principal Image">
                     </figure>
                     <div class="content-div">
                         <div class="title">MESSAGE FROM PRINCIPAL</div>
@@ -344,73 +279,10 @@
 
     </section>
     </main>
-    <footer>
-        <div class="footer-sections">
-            <div class="footer-section footer-section-1">
-                <h2>ABOUT US</h2>
-                <div class="content">
-                    <p>B.D. Public School, Affiliated to CBSE, is run under the aegis of Budha Vikash Samiti. The zenith which the school has been able to reach is largely due to the untiring effort and devotion of Shri Sheo Bihari Roy whose services the school still enjoys as its Director. Some eminent educationists, like Dr. D.N. Mishra (Rtd. Prof., Patna University, Patna)..</p>
-                    <a href="Read More"></a>
-                </div>
-            </div>
-            <div class="footer-section footer-section-2">
-                <h2>QUICK LINKS</h2>
-                <div class="content">
-                    <ul>
-                        <li>About Us</li>
-                        <li>Facility</li>
-                        <li>Admission</li>
-                        <li>Admission Enquiry</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-section footer-section-3">
-                <h2>GALLERY</h2>
-                <div class="content">
-                    <ul>
-                        <li>Photo Gallery</li>
-                        <li>Video Gallery</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-section footer-section-4">
-                <h2>SCHOOL TIMING</h2>
-                <div class="content">
-                    <p>Mon-Fri 7:10 am to 1:20 pm <br />7:10 am to 10:30 pm</p>
-                </div>
-            </div>
-            <div class="footer-section footer-section-5">
-                <h2>CONTACT US</h2>
-                <div class="content">
-                    <ul>
-                        <li>
-                            <label for="address">Address: </label>
-                            <p name='address'>Buddha Colony, Patna - 800 001</p>
-                            <br>
-                        </li>
-                        <li>
-                            <label for="phone">Phone: </label>
-                            <p name='phone'>9065523909, 8864014737, 8294159505</p>
-                            <br>
-                        </li>
-                        <li>
-                            <label for="fax">Fax No: </label>
-                            <p name='fax'>0612-2524763</p>
-                            <br>
-                        </li>
-                        <li>
-                            <label for="email">Email: </label>
-                            <p name='email'>bdpschool@rediffmail.com</p>
-                            <br>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-        <div class="copyright">© 2023 B.D Public School Design By : <span style='color:rgb(12, 201, 144);margin-left:1rem;'> Rakesh Jaiswal</span></div>
-    <script defer src='./js/jquery-min.js'></script>
-    <script defer src='./js/script.js'></script>
+    <?php
+        include './footer.html';
+    ?>
+    <script defer src='./static/js/jquery-min.js'></script>
+    <script defer src='./static/js/script.js'></script>
 </body>
 </html>
