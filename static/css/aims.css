@@ -1,0 +1,23 @@
+header ul{
+    display: none;
+}
+
+.page-hero{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-hero h1{
+    color:#fff;
+    position: absolute;
+}
+
+.page-hero img{
+    position: absolute;
+    width: 100vw;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
