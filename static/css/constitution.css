@@ -1,0 +1,43 @@
+main{
+    display:flex;
+    flex-flow: column wrap;
+    background: rgba(255, 255, 255, 0.199);
+    padding: 4rem 4rem;
+}
+
+main section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+    line-height: 2rem;
+    color: rgb(75, 75, 75);
+}
+
+main section .content{
+    flex: 0 1 calc(70vw - 8rem);
+}
+
+main section img{
+    flex: 0 1 auto;
+    max-width: 20rem;
+    border-radius: 7px;
+    padding: .5rem;
+    background-color: rgb(243, 232, 232);
+    border: 5px solid rgba(194, 188, 188, 0.87);
+    box-shadow: 0px 0px 2.2rem 5px rgba(82, 76, 76, 0.863);
+}
+
+
+@media(max-width:958px){
+    main{
+        padding: 4rem 1.5rem;
+    }
+    main section .content{
+        flex: 1 1 100%;
+    }
+
+    main section img{
+        margin-top: 2rem;
+    }
+}
