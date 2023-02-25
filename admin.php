@@ -16,6 +16,9 @@
 </head>
 <body>
     <aside>
+        <div class="close-btn">
+            <i class='fa-solid fa-xmark'></i>
+        </div>
         <a href='./admin.php' class="panel-name">Admin Panel</a>
         <div class="user">
             <i class="fa fa-user"></i>
@@ -28,26 +31,28 @@
             <div class='menu-element solo' name='notice board'>Notice Board</div>
         </div>
     </aside>
-    <nav>
-        <div class="menu-btn">
-            <i class='fa-solid fa-bars'></i>
-        </div>
-        <div class="left-side">
-            <a href="#">Home</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="right-side">
-            <button id='input-search'><i class="fa fa-search"></i></button>
-        </div>
-        <div class="search-bar">
-            <div class="container">
-                <input type="text" placeholder="Search">
-                <div class="search-close-btn"><i class="fa-solid fa-xmark"></i></div>
-                <button><i class="fa fa-search"></i></button>
+    <div class="container">
+        <nav>
+            <div class="menu-btn">
+                <i class='fa-solid fa-bars'></i>
             </div>
-        </div>
-    </nav>
-    <main></main>
+            <div class="left-side">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="right-side">
+                <button id='input-search'><i class="fa fa-search"></i></button>
+            </div>
+            <div class="search-bar">
+                <div class="container">
+                    <input type="text" placeholder="Search">
+                    <div class="search-close-btn"><i class="fa-solid fa-xmark"></i></div>
+                    <button><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </nav>
+        <main></main>
+    </div>
     <script defer src='./static/js/admin.js'></script>
 </body>
 </html>

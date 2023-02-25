@@ -1,7 +1,11 @@
 let menuElements = document.querySelectorAll('.menu-element');
 
 document.querySelector('.menu-btn').addEventListener('click',()=>{
-    document.querySelector('aside').classList.toggle('active');
+    document.querySelector('aside').classList.add('active');
+})
+
+document.querySelector('.close-btn').addEventListener('click',()=>{
+    document.querySelector('aside').classList.remove('active');
 })
 
 document.querySelector('nav').querySelector('.right-side').querySelector('button').addEventListener('click',(e)=>{
@@ -22,3 +26,20 @@ Array.from(menuElements).forEach((menuElement)=>{
         e.target.classList.toggle('anchor-active');
     })
 })
+
+const setPage = (pageHTML) => {
+    document.querySelector('main').innerHTML = pageHTML;
+}
+
+// ---------------Loading pages here --------------
+const loadDashboard = async () => {
+    let dashboardPage = await fetch('pages/admin-pages/dashboard.html',{
+        method:'GET'
+    }).then(async (response)=>{
+        return await response.text();
+    })
+    setPage(dashboardPage);
+
+}
+
+loadDashboard();
