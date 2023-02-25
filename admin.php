@@ -44,7 +44,7 @@
                 <button id='input-search'><i class="fa fa-search"></i></button>
             </div>
             <div class="search-bar">
-                <div class="container">
+                <div class="container-box">
                     <input type="text" placeholder="Search">
                     <div class="search-close-btn"><i class="fa-solid fa-xmark"></i></div>
                     <button><i class="fa fa-search"></i></button>

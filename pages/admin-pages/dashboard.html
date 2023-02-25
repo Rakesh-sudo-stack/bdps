@@ -1,9 +1,24 @@
-<div class="admins">
-    <h2>Manage Admins</h2>
-    <div class="add-admin">
-
+<div class="dashboard">
+    <div class="admins">
+        <h2>Manage Admins</h2>
+        <ul>
+            
+        </ul>
+        <button id="add-admin-btn">Add Admin</button>
+        <div class="add-admin-portal">
+            <form action="./php-form-actions/add-admin.php" method="POST">
+                <h3>Add Admin</h3>
+                <label for="name">Name: </label>
+                <input type="text" name='name' required>
+                <label for="email">Email: </label>
+                <input type="text" name='email' required>
+                <label for="permission">Permission: </label>
+                <select name="permission" required>
+                    <option value="read">Read Only</option>
+                    <option value="write">Read & Write</option>
+                </select>
+                <button name="add-admin">Add</button>
+            </form>
+        </div>
     </div>
-    <ul>
-        
-    </ul>
 </div>

@@ -31,14 +31,23 @@ const setPage = (pageHTML) => {
     document.querySelector('main').innerHTML = pageHTML;
 }
 
+const loadScript = (src) => {
+    let script = document.createElement('script');
+    script.setAttribute('defer',true);
+    script.src = src;
+    document.body.appendChild(script);
+}
+
 // ---------------Loading pages here --------------
 const loadDashboard = async () => {
     let dashboardPage = await fetch('pages/admin-pages/dashboard.html',{
         method:'GET'
     }).then(async (response)=>{
         return await response.text();
+    }).then(async (dashboardPage)=>{
+        setPage(dashboardPage);
+        loadScript('static/js/admin-scripts/dashboard.js');
     })
-    setPage(dashboardPage);
 
 }
 
