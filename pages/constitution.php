@@ -28,7 +28,7 @@
     <main>
         <section>
             <div class="content">
-                <h1><span style='color:blueviolet;'>Preamble of</span> India</h1>
+                <h1><span class='text-highlight'>Preamble of</span> India</h1>
                 <ul>
                     <li><span class='text-bold'>WE THE PEOPLE OF INDIA</span>, having solemnly resolved to constitute India into a <span class='text-bold'>SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC</span> and to secure to all Its citizens:</li>
                     <li><span class='text-bold'>JUSTICE</span>, Social, economic and political;</li>
@@ -43,7 +43,7 @@
         </section>
         <section>
             <div class="content">
-                <h1><span style='color:blueviolet;'>Constitution</span> India</h1>
+                <h1><span class='text-highlight''>Constitution</span> India</h1>
                 <p>
                     <h3 style='text-align:center;'>Part IV A (articles 51 A)<br>Fundamental Duties</h3>
                     <h4>Fundamental Duties-It shall be the duty of every citizen of India:</h4>

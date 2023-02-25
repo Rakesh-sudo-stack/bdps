@@ -8,14 +8,14 @@ main{
 main section{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     margin-bottom: 4rem;
     line-height: 2rem;
     color: rgb(75, 75, 75);
+    justify-content: center;
 }
 
 main section .content{
-    flex: 0 1 calc(70vw - 8rem);
+    flex: 1 1 calc(70vw - 8rem);
 }
 
 main section img{

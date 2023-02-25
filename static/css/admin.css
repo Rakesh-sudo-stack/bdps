@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -ms-tap-highlight-color:transparent;
+    -moz-tap-highlight-color:transparent;
+    -o-tap-highlight-color:transparent;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #0063B2FF;
+    position: relative;
+}
+
+:root {
+    --aside-bg: #00203FFF;
+    --panel-color: #ADEFD1FF;
+}
+
+body aside {
+    height: 100vh;
+    background: var(--aside-bg);
+    min-width: 17rem;
+    max-width: 20rem;
+    z-index: 3;
+}
+
+aside.active{
+    display: block;
+}
+
+aside .panel-name {
+    width: 100%;
+    color: var(--panel-color);
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+aside .panel-name:hover {
+    color: rgb(132, 132, 192);
+}
+
+aside .user {
+    width: 100%;
+    padding: 1rem 2rem;
+    border-top: 1px solid var(--panel-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--panel-color);
+}
+
+aside .user i {
+    color: rgb(56, 124, 226);
+    border: 1px solid var(--panel-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: .3rem .4rem;
+    background-color: rgb(43, 226, 141);
+    margin-right: .4rem;
+}
+
+aside .user a {
+    color: rgb(190, 190, 190);
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.modifications {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 1rem;
+}
+
+.anchor-active {
+    color: #393c41 !important;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.modifications .menu-element {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+aside .user a:hover,
+aside .user i:hover {
+    color: #ebeaea;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.modifications .menu-element:hover:not(.anchor-active) {
+    border-radius: 5px;
+    background-color: #393c4193;
+}
+
+nav {
+    position: relative;
+    flex: 1 0 auto;
+    height: 3.55rem;
+    background-color: var(--aside-bg);
+    border-bottom: 1px solid var(--panel-color);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    justify-content: space-between;
+}
+
+nav .search-bar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+nav .search-bar .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .search-bar .search-close-btn{
+    background:#fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .search-bar .search-close-btn i{
+    font-size: 1.3rem;
+    color: red;
+}
+
+nav .search-bar .container input{
+    flex: 1 1 40px;
+}
+
+nav .left-side, nav .right-side{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav .right-side{
+    flex-flow: row-reverse;
+}
+
+nav .menu-btn{
+    padding: .3rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+nav .menu-btn i{
+    color: var(--panel-color);
+    font-size: 1.7rem;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+    float: left;
+    display: block;
+    color: #b1d1bf;
+    text-align: center;
+    margin: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* Style the "active" element to highlight the current page */
+nav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+nav input[type=text] {
+    padding: 7px 12px;
+    border: none;
+    border: none;
+    outline: none;
+    border-radius: 1rem 0 0 1rem;
+}
+
+nav button{
+    padding: .4rem;
+    border-radius: 0 8px 8px 0;
+    background-color: var(--panel-color);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+nav button i{
+    font-size: 1.5rem;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    nav .menu-btn{
+        margin-right: .7rem;
+        padding: 0;
+    }
+
+    nav input[type=text] {
+        padding: 7px;
+    }
+}
+
+@media(max-width:680px){
+    aside{
+        position: fixed;
+        display: none;
+        width: 100vw;
+    }
+}
+
+@media(max-width:500px){
+    nav{
+        height: 5rem;
+        padding: .8rem;
+    }
+
+    nav input[type=text]{
+        display: none;
+    }
+
+    nav .search-bar{
+        padding: 0 1.5rem 0 2rem;
+    }
+
+    nav .search-bar input[type=text]{
+        display: flex;
+        padding: 7px 6px;
+        margin: 0;
+    }
+
+    nav button{
+        background: transparent;
+        color: var(--panel-color);
+    }
+
+    nav .search-bar button{
+        background: var(--panel-color);
+        color: var(--aside-bg);
+    }
+}

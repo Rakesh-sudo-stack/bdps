@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8A2BE2"/>
     <title>B.D. Public School</title>
+    <script nonce="random123" src="https://trusted.example.com/trusted_script.js"></script>
     <script defer src="https://kit.fontawesome.com/40bc81af5c.js" crossorigin="anonymous"></script>
     <meta
         name="description"
@@ -23,32 +25,31 @@
                 <ul>
                     <li><a href="./pages/aims.php">Aims & Objectives</a></li>
                     <li><a href="./pages/constitution.php">Our Constitution</a></li>
-                    <li><a href="">Director Message</a></li>
-                    <li><a href="">School Managing Committee</a></li>
+                    <li><a href="./pages/director-msg.php">Director Message</a></li>
+                    <li><a href="./downloads/pdf/SMC.pdf">School Managing Committee</a></li>
                 </ul>
             </li>
             <li class="dropdown-nav-li">
                 school info<i class="fa fa-angle-down"></i>
                 <ul>
-                    <li><a href="">school profile</a></li>
-                    <li><a href="">affidavit/declaration</a></li>
-                    <li><a href="">school advisory board</a></li>
+                    <li><a href="./downloads/pdf/SchoolInfo.pdf">school profile</a></li>
+                    <li><a href="./downloads/pdf/Affidavit.pdf">affidavit/declaration</a></li>
                 </ul>
             </li>
             <li class="dropdown-nav-li">
                 academics<i class="fa fa-angle-down"></i>
                 <ul>
-                    <li><a href="">academic calender</a></li>
-                    <li><a href="">teachers list</a></li>
+                    <li><a href="./downloads/pdf/Academic Calender.pdf">academic calender</a></li>
+                    <li><a href="./downloads/pdf/Teachers List.pdf">teachers list</a></li>
                     <li><a href="">book list</a></li>
-                    <li><a href="">academic achievements</a></li>
+                    <li><a href="./downloads/pdf/RESULTANAL.pdf">academic achievements</a></li>
                     <li><a href="">code of conduct for students</a></li>
-                    <li><a href="">advice to parents</a></li>
-                    <li><a href="">activities&competitions</a></li>
-                    <li><a href="">annual sports meet</a></li>
-                    <li><a href="">exam schedule</a></li>
-                    <li><a href="">school uniform</a></li>
-                    <li><a href="">holiday list</a></li>
+                    <li><a href="./pages/advice-to-parents.php">advice to parents</a></li>
+                    <li><a href="./downloads/pdf/Activities and Competitions.pdf">activities&competitions</a></li>
+                    <li><a href="./downloads/pdf/Annual Sports Meet.pdf">annual sports meet</a></li>
+                    <li><a href="./downloads/pdf/Exam Schedule.pdf">exam schedule</a></li>
+                    <li><a href="./downloads/pdf/School Uniform.pdf">school uniform</a></li>
+                    <li><a href="./downloads/pdf/Holiday List.pdf">holiday list</a></li>
                 </ul>
             </li>
             <li class="dropdown-nav-li">
@@ -171,7 +172,7 @@
                         </a>
                     </li>
                     <li title="facebook">
-                        <a href="" aria-label="Visit Facebook Page">
+                        <a href="https://www.facebook.com/bdpublicschoolbuddhacolonypatna" aria-label="Visit Facebook Page">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </li>
@@ -181,7 +182,7 @@
                         </a>
                     </li>
                     <li title="youtube">
-                        <a href="" aria-label="Visit Youtube Page">
+                        <a href="https://www.youtube.com/@b.d.publicschool9738" aria-label="Visit Youtube Page">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
                     </li>
@@ -189,7 +190,7 @@
             </div>
         </div>
         <div class="school-prospectus">
-            <a href="">School Prospectus</a>
+            <a href="./downloads/pdf/SchoolInfo.pdf">School Prospectus</a>
         </div>
     </div>
     <section class='section-1'>
@@ -197,7 +198,7 @@
             <div class="about-us">
                 <h2>WELCOME TO <span style="color:rgb(144, 26, 168);">B.D PUBLIC SCHOOL</span></h2>
                 <p><b>B.D. Public School</b>, Affiliated to <b>CBSE</b>, is run under the aegis of Budha Vikash Samiti. The zenith which the school has been able to reach is largely due to the untiring effort and devotion of Shri Sheo Bihari Roy whose services the school still enjoys as its Director. Some eminent educationists, like <b>Dr. D.N. Mishra</b> (Rtd. Prof., Patna University, Patna) who out of a sense of devotion to the cause of education, spare some time regularly, to guide the students. The school is headed by an eminent Principal, Smt. Madhwi Kumari, who is an academician and sustains the students as a mother.</p>
-                <a href="#" id='read-more'>Read More</a>
+                <a href="./pages/aims.php" id='read-more'>Read More</a>
                 <!-- <img src="./static/img/schoolbuilding.webp" alt="School Building"> -->
             </div>
             <div class="messages-section">
@@ -208,7 +209,7 @@
                     <div class="content-div">
                         <div class="title">MESSAGE FROM DIRECTOR</div>
                         <div class="content">It gives me immense pleasure to acknowledge with gratitude the recognition and appreciation this <b>B.D. Public School</b> has earned over the years. An Institution is known not by the magnificence....</div>
-                        <a href='' class="read-more">Read More ></a>
+                        <a href='./pages/director-msg.php' class="read-more">Read More ></a>
                     </div>
                 </div>
                 <div class="message">
@@ -371,18 +372,18 @@
                 <h2>ABOUT US</h2>
                 <div class="content">
                     <p>B.D. Public School, Affiliated to CBSE, is run under the aegis of Budha Vikash Samiti. The zenith which the school has been able to reach is largely due to the untiring effort and devotion of Shri Sheo Bihari Roy whose services the school still enjoys as its Director. Some eminent educationists, like Dr. D.N. Mishra (Rtd. Prof., Patna University, Patna)..</p>
-                    <a href="Read More"></a>
+                    <a style='color:rgb(12, 201, 144);font-weight:600;' href="./pages/aims.php">Read More</a>
                 </div>
             </div>
             <div class="footer-section footer-section-2">
                 <h2>QUICK LINKS</h2>
                 <div class="content">
                     <ul>
-                        <li>About Us</li>
-                        <li>Facility</li>
-                        <li>Admission</li>
-                        <li>Admission Enquiry</li>
-                        <li>Contact Us</li>
+                        <li><a href='./pages/aims.php'>About Us</a></li>
+                        <li><a href=''>Facility</a></li>
+                        <li><a href='./downloads/pdf/Exam Schedule.pdf'>Exam Schedule</a></li>
+                        <li><a href=''>Admission Enquiry</a></li>
+                        <li><a href=''>Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -390,8 +391,8 @@
                 <h2>GALLERY</h2>
                 <div class="content">
                     <ul>
-                        <li>Photo Gallery</li>
-                        <li>Video Gallery</li>
+                        <li><a href=''>Photo Gallery</a></li>
+                        <li><a href=''>Video Gallery</a></li>
                     </ul>
                 </div>
             </div>
@@ -422,7 +423,7 @@
                         </li>
                         <li>
                             <label for="email">Email: </label>
-                            <p name='email'>bdpschool@rediffmail.com</p>
+                            <p name='email'><a href='mailto:bdpschool@rediffmail.com'>bdpschool@rediffmail.com</a></p>
                             <br>
                         </li>
                     </ul>
@@ -430,7 +431,7 @@
             </div>
         </div>
     </footer>
-        <div class="copyright">© 2023 B.D Public School Design By : <span style='color:rgb(12, 201, 144);margin-left:1rem;'> Rakesh Jaiswal</span></div>
+        <div class="copyright">© 2023 B.D Public School Design By :  <a style='color:rgb(12, 201, 144);margin-left:1rem;text-decoration:none;' href='https://rakesh-sudo-stack.github.io'>Rakesh Jaiswal</a> </div>
     <script defer src='./static/js/script.js'></script>
 </body>
 </html>
